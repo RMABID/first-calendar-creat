@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <style>
+        .container{
+            text-align: center;
+            color: rgb(240, 149, 30);
+        }
+        span{
+            color: rgb(207, 29, 139);
+        }
+        .calendar{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            grid-template-rows:30px repeat(6,50px);
+            row-gap: 20px;
+            column-gap: 10px;
+
+        }
+  
+        .date, .day{
+            background-color: rgb(3, 56, 56);
+            color: blueviolet;
+           border-radius: 9px;
+           /* height: 50px; */
+           /* grid-template-rows: ; */
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           font-size: 1.50em;
+        }
+        .day{
+            font-size: 1em;
+            color: rgb(20, 202, 117);
+            background-color: rgb(59, 59, 38);
+            box-shadow: 1px 1px 2px 3px;
+        }
+        .date{
+            /* font-size: 1em; */
+            box-shadow: 1px 1px 2px 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Calen<span>dar</span></h1>
+    </div>
+    <div class="calendar">
+        <div class="day">SU</div>
+        <div class="day">MO</div>
+        <div class="day">TU</div>
+        <div class="day">WE</div>
+        <div class="day">TH</div>
+        <div class="day">FR</div>
+        <div class="day">SA</div>
+        <div class="date">29</div>
+        <div class="date">30</div>
+        <div class="date">31</div>
+        <div class="date">1</div>
+        <div class="date">2</div>
+        <div class="date">3</div>
+        <div class="date">4</div>
+        <div class="date">5</div>
+        <div class="date">6</div>
+        <div class="date">7</div>
+        <div class="date">8</div>
+        <div class="date">9</div>
+        <div class="date">10</div>
+        <div class="date">11</div>
+        <div class="date">12</div>
+        <div class="date">13</div>
+        <div class="date">14</div>
+        <div class="date">15</div>
+        <div class="date">16</div>
+        <div class="date">17</div>
+        <div class="date">18</div>
+        <div class="date">19</div>
+        <div class="date">20</div>
+        <div class="date">21</div>
+        <div class="date">22</div>
+        <div class="date">23</div>
+        <div class="date">24</div>
+        <div class="date">25</div>
+        <div class="date">26</div>
+        <div class="date">27</div>
+        <div class="date">28</div>
+        <div class="date">29</div>
+        <div class="date">30</div>
+        <div class="date">1</div>
+        <div class="date">2</div>
+    </div>
+</body>
+</html>
